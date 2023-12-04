@@ -32,7 +32,7 @@ fun main() {
         }
         val numCopies = card.first.second
         println("Card ${card.first.first} Num copies $numCopies")
-        card.first.second
+        numCopies
     }.sum()
 
     println("result $result")
