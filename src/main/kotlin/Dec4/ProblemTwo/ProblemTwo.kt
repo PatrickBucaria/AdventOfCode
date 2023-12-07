@@ -5,6 +5,7 @@ import java.io.File
 
 fun main() {
     val bufferedReader: BufferedReader = File("/Users/patrickbucaria/IdeaProjects/AdventOfCode/src/main/kotlin/Dec4/input.txt").bufferedReader()
+    bufferedReader.readLines()
     val cards: MutableList<Pair<Pair<Int, Int>, Pair<List<Int>, List<Int>>>> = bufferedReader.use { it.readText() }
         .split("\n")
         .map {
